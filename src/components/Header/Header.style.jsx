@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import image from '../../images/image1.jpg';
 
 export const Header = styled.header`
+  place-items: center;
   width: 100%;
-  height: 25rem;
-  opacity: 0.8;
+  height: 45rem;
   background-image: url(${image});
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,7 +17,7 @@ export const Navigation = styled.nav`
   margin: 0 5rem;
 `;
 
-export const Link = styled.a`
+export const Navigate = styled(Link)`
   margin: 1rem 3rem;
   text-decoration: 0;
   color: whitesmoke;
@@ -27,6 +28,6 @@ export const Link = styled.a`
   :hover {
     background: inherit;
     transition: 0.5s;
-    color: white;
+    color: black;
   }
 `;

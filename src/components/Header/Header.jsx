@@ -1,16 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './Header.style';
+import Container from '../Container/Container';
 
-function Header(props) {
+function Header({ children }) {
   return (
     <div>
       <S.Header>
         <S.Navigation>
-          <S.Link href='#'>Home</S.Link>
-          <S.Link href='#'>Projects</S.Link>
-          <S.Link href='#'>About</S.Link>
+          <S.Navigate to='/'>Home</S.Navigate>
+          <S.Navigate to='/projects'>Projects</S.Navigate>
+          <S.Navigate to='/technologies'>technologies</S.Navigate>
         </S.Navigation>
+        {children}
       </S.Header>
     </div>
   );

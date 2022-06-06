@@ -8,7 +8,7 @@ function Header({ children }) {
     <div>
       <S.Header>
         <S.Navigation>
-          <S.Navigate to='/'>Home</S.Navigate>
+          <S.Navigate to='/'>About</S.Navigate>
           <S.Navigate to='/projects'>Projects</S.Navigate>
           <S.Navigate to='/technologies'>technologies</S.Navigate>
         </S.Navigation>

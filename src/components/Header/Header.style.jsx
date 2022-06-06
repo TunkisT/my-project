@@ -18,7 +18,7 @@ export const Navigation = styled.nav`
 `;
 
 export const Navigate = styled(Link)`
-  margin: 1rem 3rem;
+  margin: 1rem 2.5rem;
   text-decoration: 0;
   color: whitesmoke;
   text-transform: uppercase;
@@ -29,5 +29,8 @@ export const Navigate = styled(Link)`
     background: inherit;
     transition: 0.5s;
     color: black;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 1rem 1rem;
   }
 `;

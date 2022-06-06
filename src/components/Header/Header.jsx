@@ -5,7 +5,13 @@ import * as S from './Header.style';
 function Header(props) {
   return (
     <div>
-      <S.Header>divas</S.Header>
+      <S.Header>
+        <S.Navigation>
+          <S.Link href='#'>Home</S.Link>
+          <S.Link href='#'>Projects</S.Link>
+          <S.Link href='#'>About</S.Link>
+        </S.Navigation>
+      </S.Header>
     </div>
   );
 }

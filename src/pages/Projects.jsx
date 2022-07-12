@@ -9,8 +9,9 @@ const Projects = () => {
         main='Manage employees app'
         link='https://employee-react-pp9qk.ondigitalocean.app'
       >
-        This is simple project for administrators whose can save company employees
-        contacts.
+        This is simple React and Node.js fullstack project for administrators whose can
+        save company employees contacts.<br/><br/>
+
       </Container>
     </Header>
   );

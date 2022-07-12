@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import image from '../../images/image1.jpg';
 
 export const Header = styled.header`
+  background-image: url(${image});
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
   place-items: center;
   width: 100%;
-  height: 45rem;
-  background-image: url(${image});
-  background-size: cover;
-  background-repeat: no-repeat;
 `;
 export const Navigation = styled.nav`
   display: flex;
@@ -18,13 +18,13 @@ export const Navigation = styled.nav`
 `;
 
 export const Navigate = styled(Link)`
-  margin: 1rem 2.5rem;
-  text-decoration: 0;
-  color: whitesmoke;
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  color: whitesmoke;
+  font-size: 1rem;
+  margin: 1rem 2.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: 0;
+  text-transform: uppercase;
   :hover {
     background: inherit;
     transition: 0.5s;

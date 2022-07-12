@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './Container.style';
 
+
 function Container({ children, main, link }) {
   return (
     <S.Container>

@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './Header.style';
-import Container from '../Container/Container';
 
 function Header({ children }) {
   return (
@@ -18,6 +17,8 @@ function Header({ children }) {
   );
 }
 
-Header.propTypes = {};
+Header.propTypes = {
+  children: PropTypes.node,
+};
 
 export default Header;

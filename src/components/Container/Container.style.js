@@ -13,6 +13,7 @@ export const Main = styled.p`
 `;
 export const Subtext = styled.p`
   font-size: 1.3rem;
+  line-height: 1.4;
   max-width: 30rem;
 `;
 export const Link = styled.a`

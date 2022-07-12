@@ -9,8 +9,9 @@ const Technologies = () => {
       <Container main='Mostly used technologies in my projects'>
         <Body image='https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS-700x428.png' />
         <Body image='https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png' />
-        <Body image='https://vegibit.com/wp-content/uploads/2018/05/expressjs.png' />
         <Body image='https://miro.medium.com/max/318/1*p1TndLk3UsGPBsM7qHPZIw.png' />
+        <Body image='https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png' />
+        <Body image='https://jimstrother.com/img/skills/bCrypt.jpg' />
       </Container>
     </Header>
   );

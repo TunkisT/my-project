@@ -6,7 +6,7 @@ export const Header = styled.header`
   background-image: url(${image});
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45rem;
+  min-height: 100vh;
   place-items: center;
   width: 100%;
 `;

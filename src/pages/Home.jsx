@@ -1,4 +1,5 @@
 import React from 'react';
+import Contacts from '../components/Contacts/Contacts';
 import Container from '../components/Container/Container';
 import Header from '../components/Header/Header';
 
@@ -12,9 +13,12 @@ const Home = () => {
           side.
         </Container>
         <Container main='Contacts'>
-          Email: ttunkis@gmail.com <br />
-          Github: https://github.com/TunkisT <br />
-          LinkedIn: www.linkedin.com/in/tautvydas-tunkis
+          <Contacts main='Email: ttunkis@gmail.com' />
+          <Contacts main='Github:' link='https://github.com/TunkisT' />
+          <Contacts
+            main='LinkedIn:'
+            link='https://linkedin.com/in/tautvydas-tunkis'
+          />
         </Container>
       </Header>
     </div>

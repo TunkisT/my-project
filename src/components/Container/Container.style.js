@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 2rem;
-  padding-left: 4rem;
+  padding: 2rem 2rem 1rem 2rem;
+  padding-left: 6rem;
   color: white;
   @media screen and (max-width: 768px) {
     padding: 1.3rem;
@@ -21,4 +21,8 @@ export const Link = styled.a`
   max-width: 30rem;
   text-decoration: none;
   color: black;
+  :hover {
+    transition: 0.5s;
+    color: #eea;
+  }
 `;

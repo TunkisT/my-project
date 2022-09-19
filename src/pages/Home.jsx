@@ -9,8 +9,8 @@ const Home = () => {
       <Header>
         <Container main='Hello, I am Tautvydas Tunkis'>
           I am junior fullstack javascript developer working with web application
-          creating in both sides. Using REACT in client side, and NODE in server
-          side.
+          creating in both sides. Using REACT or NEXT in client side, and NODE in
+          server side.
         </Container>
         <Container main='Contacts'>
           <Contacts main='Email: ttunkis@gmail.com' />

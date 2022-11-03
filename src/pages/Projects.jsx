@@ -6,11 +6,11 @@ const Projects = () => {
   return (
     <Header>
       <Container
-        main='Manage employees app'
-        link='https://employee-react-pp9qk.ondigitalocean.app'
+        main='Product catalog'
+        link='https://silumos-sprendimai.vercel.app/'
       >
-        This is simple React and Node.js fullstack project for administrators whose
-        can create own account and save company employees contacts.
+        This is product catalog project created using NEXT.js framework. All data is
+        fetching from CodeMash CMS. Used static page generation for good SEO results.
         <br />
       </Container>
       <Container
@@ -23,7 +23,7 @@ const Projects = () => {
       </Container>
       <Container
         main='Simple router panel'
-        link='https://router-panel.herokuapp.com/web/html'
+        link='https://router-panel.herokuapp.com/'
       >
         This is React project similar to router admin panel. Used for new user saving
         and category or sub-category creating.
